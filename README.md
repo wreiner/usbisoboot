@@ -3,7 +3,7 @@ usbisoboot
 
 <p>Booting multiple ISOs from an USB stick using Grub</p>
 
-<p>Based on the information found at [http://www.panticz.de/MultiBootUSB](http://www.panticz.de/MultiBootUSB)</p>
+<p>Based on the information found at http://www.panticz.de/MultiBootUSB</p>
 1. Create a partition on the usb stick (partition type 0x0C)
 2. Create filesystem on the partition
 <pre><code>mkfs.vfat -n isostick /dev/sdX1</pre></code>
